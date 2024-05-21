@@ -1,0 +1,13 @@
+.container {
+    background-color: #cecece;
+}
+
+.container h1 {
+    color: blue;
+    font-size: 50px;
+}
+
+.container p {
+    color: black;
+    font-size: 20px;
+}

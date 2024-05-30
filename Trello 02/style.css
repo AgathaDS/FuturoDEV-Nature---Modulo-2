@@ -1,0 +1,55 @@
+.h1 {
+    background-color: rgb(8, 120, 185);
+    padding: 10px;
+    border-radius: 15px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 510;
+    font-style: normal;
+      
+}
+
+.h2 {
+    padding: 10px;
+    margin-inline: 10PX;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+}
+
+
+.p {
+    padding: 10px;
+    margin-inline: 10PX;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.lista {
+    padding: 10px;
+    margin-inline: 10PX;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.form {
+    padding: 10px;
+    margin-inline: 10PX;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.footer {
+    background-color: rgb(8, 120, 185);
+    padding: 15px;
+    border-radius: 15px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 510;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+

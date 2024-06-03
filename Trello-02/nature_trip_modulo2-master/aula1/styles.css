@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    width: 90px;
+    margin-top: 10px;  
+}
+
+.error {
+    color: red;
+}

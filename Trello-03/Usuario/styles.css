@@ -1,0 +1,14 @@
+.message {
+    display: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.error {
+    color: white;
+    background-color: red;
+}
+.success {
+    color: white;
+    background-color: green;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Semana 4 - Aula 3</title>
+</head>
+<body>
+   <!-- <p class="p">Este é um parágrafo que será modificado.</p>
+   <div class="buttons">
+   <button onclick="">Mudar cor do texto</button>
+   <button onclick="">Adicionar/remover uma classe</button>
+   <button onclick="">Adicionar/remover um atributo</button>
+   </div> -->
+
+   <!-- <h1>Semana 4 - Aula 3</h1>
+   <button onclick="mostrarMsg()">Mostrar mensagem</button>
+   <div id="msg-container">
+
+   </div>
+   <script>
+    function mostrarMsg() {
+        const msg-container = document.getElementById(`msg-conatiner`),
+    
+    } -->
+   <!-- </script> -->
+
+   <!-- Lista de Tarefas -->
+   
+   <h1>Lista de Tarefas</h1>
+   <input id="task-input" type="text" placeholder="Nova Tarefa">
+   <button onclick="addTarefa()">Adifionar Tarefa</button>
+   <ul id="task-list"></ul>
+   
+   <script>
+   function addTarefa() {
+   const taskInput = document.getElementById('task-input')
+   const newTask = taskInput.value
+   if (newTask.trim()) {
+   const taskList = document.getElementById('task-list')
+   // Utilizo o innerHTML para adicionar a tarefa digitada
+   taskList.innerHTML += `<li class="tarefa">${newTask}</li>`
+   taskInput. value = ''
+   }
+}
+   </script>
+</body>
+</html>

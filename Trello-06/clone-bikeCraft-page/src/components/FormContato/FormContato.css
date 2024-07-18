@@ -1,0 +1,94 @@
+
+
+.agrupaForm {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -150px;
+   
+    border-radius: 5px;
+}
+
+.lojaOnline{ 
+    background-color: black;
+    color: white;
+    font:400 1rem/1.5 "Roboto", sans-serif
+}
+
+.lojaOnline li { 
+    list-style: none;
+    
+    
+}
+.lojaOnline .endereco ul li span{
+    display: block;
+    margin-bottom: 32px;
+    padding-left: 28px;
+}
+
+.lojaOnline, .contatoForm{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    padding: 100px;
+    
+}
+
+.contatoForm  {
+    background-color: white;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.lojaOnline .h2{
+    margin-bottom: 60px;
+}
+
+
+.contatoForm .col2 {
+    grid-column: span 2;
+    grid-column-start: span 2;
+    grid-column-end: auto;
+}
+
+.contatoForm button {
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p5);
+    font: 600 1.125rem / 1.35 "Poppins", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+}
+
+
+.contatoForm input, textarea    {
+    font: 400 1rem / 1.5 "Roboto", sans-serif;
+    background: #f7f7f7;
+    border: 1px solid var(--cor-2);
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contatoForm textarea{
+    height: 100px;
+}
+
+
+.contatoForm div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contatoForm .mBottom {
+    margin-bottom: 20px;
+}
